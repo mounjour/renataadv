@@ -23,9 +23,9 @@
         }
 
         :root {
-           --bg-primary: #0a0c0f;
+           --bg-primary: #57101a;
             --bg-secondary: #14181c;
-            --bg-tertiary: #1e2429;
+            --bg-tertiary: #57101a;
             --bg-card: #1a1f24;
             
             /* Cores de texto */
@@ -35,9 +35,9 @@
             --text-inverse: #0a0c0f;
             
             /* Cores douradas */
-            --gold-primary: #ff3c00;
-            --gold-secondary: #da5520;
-            --gold-tertiary: #b80b0b;
+            --gold-primary: #ff0000;
+            --gold-secondary: rgb(128, 23, 37);
+            --gold-tertiary: #57101a;
             --gold-light: #fff1b8;
             --gold-dark: #9b7e1e;
             
@@ -307,7 +307,7 @@
         }
 
         .items-header img {
-            max-width: 150px;
+            max-width: 250px;
             height: auto;
         }
 
@@ -471,7 +471,8 @@
             font-weight: 500;
             line-height: 1.2;
             color: white;
-            margin-bottom: 24px;
+
+            margin: 40px 0px;
         }
 
         .hero h1 strong {
@@ -507,7 +508,7 @@
             font-size: 0.9rem;
             letter-spacing: 2px;
             text-transform: uppercase;
-            color: var(--bg-primary);
+            color: white;
             background: var(--gold-primary);
             padding: 6px 14px;
             border-radius: 50px;
@@ -539,7 +540,7 @@
             border-bottom: 1px dashed #dce5ea;
         }
         .icone-checklist i{
-            color: var(--bg-primary);
+            color: white;
 
         }
         .icone-checklist {
@@ -690,7 +691,7 @@
             align-items: center;
         }
         .urgencia .anos{
-            color: var(--bg-secondary);
+            color: white;
             padding: 40px;
             background: var(--gold-secondary);
             display: flex;
@@ -927,7 +928,7 @@
             }
             .logo-mobile{
                 display: flex;
-                width: 150px;
+                width: 250px;
                 margin-bottom: 20px;
                 position: relative;
             }
@@ -1041,18 +1042,18 @@
     <!-- ===== HERO ===== -->
     <section class="hero">
         <video id="meuVideo" width="640" height="360" autoplay muted loop>
-            <source src="https://thayna-lp-teste.netlify.app/carteira-video.mp4" type="video/webm">
+            <source src="carteira-video.webm" type="video/webm">
         </video>
         <div class="container hero-grid">
             <div>
                 <img alt="Logo" class="logo-mobile" src="logo-mobile.png">
-                <h1><strong>Advogada Trabalhista</strong> Especializado em Defender Seus Direitos.
+                <h1>Teve seus direitos trabalhistas <strong>desrespeitados?</strong> Não enfrente isso sozinho
                 </h1>
                 <p class="hero-text">
-                    Defenda seus direitos como trabalhador com o apoio de um advogado especializado em causas trabalhistas.
+                    Conte com uma advogada especializada em Direito do Trabalho para buscar justiça e garantir o que é seu por direito.
                 </p>
                 <a href="https://wa.me/5585981141948?text=Ol%C3%A1%2C%20vim%20pelo%20google%20e%20gostaria%20de%20dar%20entrada%20na%20rescis%C3%A3o%20indireta" class="btn-whatsapp" id="btn">
-                    <i class="fa-brands fa-whatsapp"></i> Fale com advogado
+                    <i class="fa-brands fa-whatsapp"></i> Fale com advogada
                 </a>
             </div>
         </div>
@@ -1063,10 +1064,79 @@
     <!-- ===== LISTA DE SITUAÇÕES ===== -->
     <section class="problemas">
         <div class="container">
-            <span class="section-tag">🔍 COMO PODEMOS AJUDAR</span>
-            <h2>Um advogado trabalhista pode fazer a diferença na sua vida</h2>
+            <span class="section-tag">🔍 COMO POSSO AJUDAR?</span>
+            <h2>Áreas de Atuação em Direito do Trabalho</h2>
             <div class="grid-2col">
                 <!-- itens existentes... -->
+                <div class="item-problema">
+                    <div class="icone-checklist"><i class="fa-solid fa-sack-dollar"></i></div>
+                    <div>
+                        <strong>Rescisão contratual e verbas rescisórias não quitadas</strong>
+                        <p>Análise e cobrança de verbas rescisórias, incluindo saldo de salário, aviso prévio, férias proporcionais e vencidas, 13º salário proporcional, multa de 40% do FGTS e verificação do cumprimento dos prazos legais para pagamento.</p>
+                    </div>
+                </div>
+                            <!-- item 2 -->
+            <div class="item-problema">
+                <div class="icone-checklist"><i class="fa-solid fa-hourglass-start"></i></div>
+                <div>
+                    <strong>Trabalho em domingos e feriados sem a devida compensação</strong>
+                    <p>Atuação em casos de condutas abusivas, humilhações, constrangimentos ou perseguições no ambiente laboral, com responsabilização do empregador e pedido de indenização por danos morais.</p>
+                </div>
+            </div>
+            <!-- item 3 -->
+            <div class="item-problema">
+                <div class="icone-checklist"><i class="fa-solid fa-people-pulling"></i></div>
+                <div>
+                    <strong>Supressão ou redução do intervalo intrajornada</strong>
+                    <p>Situações em que o empregado não usufrui integralmente do intervalo para descanso e alimentação, com direito ao pagamento do período suprimido acrescido do adicional legal.</p>
+                </div>
+            </div>
+            <!-- item 4 -->
+            <div class="item-problema">
+                <div class="icone-checklist"><i class="fa-solid fa-pizza-slice"></i></div>
+                <div>
+                    <strong>Desvio ou acúmulo de função</strong>
+                    <p>Situações em que o trabalhador exerce atribuições distintas ou superiores às previstas em seu contrato de trabalho, sem a correspondente remuneração.</p>
+                </div>
+            </div>
+            <!-- item 5 -->
+            <div class="item-problema">
+                <div class="icone-checklist"><i class="fa-solid fa-stethoscope"></i></div>
+                <div>
+                    <strong>Irregularidades no banco de horas</strong>
+                    <p>Análise da validade de acordos de compensação de jornada e identificação de abusos ou ausência de acordo formal que possam gerar direito ao pagamento de horas extras.</p>
+                </div>
+            </div>
+            <!-- item 6 -->
+            <div class="item-problema">
+                <div class="icone-checklist"><i class="fa-solid fa-thumbtack"></i></div>
+                <div>
+                    <strong>Cobranças sindicais indevidas</strong>
+                    <p>Verificação de contribuições sindicais ou assistenciais realizadas sem autorização do trabalhador, especialmente após as alterações promovidas pela reforma trabalhista.</p>
+                </div>
+            </div>
+            <!-- item 7 -->
+            <div class="item-problema">
+                <div class="icone-checklist"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                <div>
+                    <strong>Consultoria trabalhista preventiva</strong>
+                    <p>Prestamos orientação jurídica a síndicos, microempreendedores individuais (MEIs), profissionais liberais e pequenas empresas, com foco na prevenção de passivos trabalhistas e adequação às normas da legislação laboral.</p>
+                </div>
+            </div>
+            <!-- item 8 -->
+            
+            </div>
+                    <p style="margin-top: 48px; font-size: 1.1rem; background: #e8f3ef; padding: 16px 24px; border-radius: 50px;">
+            👥 Atendemos também <strong>síndicos, MEIs, profissionais liberais e pequenas empresas</strong> em consultoria trabalhista preventiva.
+        </p>
+                    <a id="cta" href="https://wa.me/5585981141948?text=Ol%C3%A1%2C%20vim%20pelo%20google%20e%20gostaria%20de%20dar%20entrada%20na%20rescis%C3%A3o%20indireta">Falar com Advogado <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </section>
+    <!--<section class="problemas">
+        <div class="container">
+            <span class="section-tag">🔍 COMO PODEMOS AJUDAR</span>
+            <h2>Contar com um advogado trabalhista pode fazer toda a diferença na defesa dos seus direitos.</h2>
+            <div class="grid-2col">
                 <div class="item-problema">
                     <div class="icone-checklist"><i class="fa-solid fa-sack-dollar"></i></div>
                     <div>
@@ -1074,7 +1144,6 @@
                         <p>Cálculo de verbas rescisórias, multa de 40% do FGTS, prazos e valores corretos.</p>
                     </div>
                 </div>
-                            <!-- item 2 -->
             <div class="item-problema">
                 <div class="icone-checklist"><i class="fa-solid fa-hourglass-start"></i></div>
                 <div>
@@ -1082,7 +1151,6 @@
                     <p>Repouso semanal remunerado em dobro e inobservância da escala.</p>
                 </div>
             </div>
-            <!-- item 3 -->
             <div class="item-problema">
                 <div class="icone-checklist"><i class="fa-solid fa-people-pulling"></i></div>
                 <div>
@@ -1090,7 +1158,6 @@
                     <p>Condutas humilhantes, danos à dignidade e indenização por danos morais.</p>
                 </div>
             </div>
-            <!-- item 4 -->
             <div class="item-problema">
                 <div class="icone-checklist"><i class="fa-solid fa-pizza-slice"></i></div>
                 <div>
@@ -1098,7 +1165,6 @@
                     <p>Famoso "almoço de 15 minutos" – pagamento do período suprimido com adicional.</p>
                 </div>
             </div>
-            <!-- item 5 -->
             <div class="item-problema">
                 <div class="icone-checklist"><i class="fa-solid fa-stethoscope"></i></div>
                 <div>
@@ -1106,7 +1172,6 @@
                     <p>Estabilidade, indenizações, danos materiais e morais.</p>
                 </div>
             </div>
-            <!-- item 6 -->
             <div class="item-problema">
                 <div class="icone-checklist"><i class="fa-solid fa-thumbtack"></i></div>
                 <div>
@@ -1114,7 +1179,6 @@
                     <p>Fazia trabalho de cargo superior sem receber o salário correspondente.</p>
                 </div>
             </div>
-            <!-- item 7 -->
             <div class="item-problema">
                 <div class="icone-checklist"><i class="fa-solid fa-clock-rotate-left"></i></div>
                 <div>
@@ -1122,7 +1186,6 @@
                     <p>Compensação abusiva ou sem acordo válido.</p>
                 </div>
             </div>
-            <!-- item 8 -->
             <div class="item-problema">
                 <div class="icone-checklist"><i class="fa-regular fa-file-lines"></i></div>
                 <div>
@@ -1137,7 +1200,7 @@
         </p>
                     <a id="cta" href="https://wa.me/5585981141948?text=Ol%C3%A1%2C%20vim%20pelo%20google%20e%20gostaria%20de%20dar%20entrada%20na%20rescis%C3%A3o%20indireta">Falar com Advogado <i class="fa-brands fa-whatsapp"></i></a>
         </div>
-    </section>
+    </section>->
 
     <!-- ===== SOBRE ===== -->
     <section class="sobre">
@@ -1243,16 +1306,15 @@ Sua atuação é pautada por estratégia processual, análise técnica aprofunda
             <div class="contato-grid">
                 <div class="contato-item">
                     <span style="font-size: 2rem;">📱</span>
-                    <a href="https://wa.me/5585981141948?text=Ol%C3%A1%2C%20vim%20pelo%20google%20e%20gostaria%20de%20dar%20entrada%20na%20rescis%C3%A3o%20indireta" class="whatsapp-numero">(88) 8152-5267</a>
+                    <a href="https://wa.me/5585981141948?text=Ol%C3%A1%2C%20vim%20pelo%20google%20e%20gostaria%20de%20dar%20entrada%20na%20rescis%C3%A3o%20indireta" class="whatsapp-numero">(85) 8114-1948</a>
                 </div>
                 <div class="contato-item">
                     <span style="font-size: 2rem;">📧</span>
-                    <span style="font-size: 1.2rem;">lazarovictoradv@hotmail.com</span>
+                    <span style="font-size: 1.2rem;">renatamedeirosdireito@gmail.com</span>
                 </div>
                 <div class="contato-item">
                     <span style="font-size: 2rem;">📍</span>
-                    <span style="font-size: 1.2rem;">Rua da Glória,
-581, Centro, Juazeiro do Norte - CE</span>
+                    <span style="font-size: 1.2rem;">Rua Cornélio Rosa, 19 - Centro Nova Russas - CE 62200-000 Brasil</span>
                 </div>
             </div>
             <div class="footer-copy">
@@ -1260,7 +1322,7 @@ Sua atuação é pautada por estratégia processual, análise técnica aprofunda
             </div>
         </div>
     </section>
-    <a href="https://wa.me/5588981525267?text=Vim%20pelo%20site%20e%20gostaria%20de%20saber%20se%20tenho%20direito%20a%20rescis%C3%A3o%20indireta" class="whatsapp-fixed">
+    <a href="https://wa.me/5585981141948?text=Ol%C3%A1%2C%20vim%20pelo%20google%20e%20gostaria%20de%20dar%20entrada%20na%20rescis%C3%A3o%20indireta" class="whatsapp-fixed">
         <i class="fab fa-whatsapp"></i>
     </a>
     <script>
